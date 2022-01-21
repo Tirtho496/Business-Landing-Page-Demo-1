@@ -1,0 +1,153 @@
+body{
+	font-family: 'Roboto',sans-serif;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.nav i{
+	padding-right: 3px;
+}
+.nav{
+	padding-left: 670px;
+	height: 40px;
+	background-color: #31535f;
+	border-bottom: 5px solid rgba(255,165,0,.9);
+	box-shadow:0px 0px 30px orange;
+}
+
+.nav ul{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.nav ul li{
+	font-size: 16px;
+	padding: 10px 25px 0px 20px;
+	display: inline-block;
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav ul li a:hover{
+	border-radius: 1px;
+	color: #31535f;
+	background-color: white;
+	transition: 2s;
+}
+
+.header{
+	width: 100%;
+	height: 650px;
+	background-image: url(../images/bgimage.jpg);
+}
+
+.main{
+	margin: 260px 0px 0px 480px;
+}
+
+.main h1{
+	font-size: 50px;
+	margin: 0 auto;
+	padding: 0;
+	color: orange;
+	opacity: 0.8;
+}
+.main p{
+	font-size: 19.5px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main h1:hover, p:hover{
+	cursor: pointer;
+}
+
+.categories{
+	text-align: justify;
+	color: black;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 590px;
+	background-color: #F3F3F3;
+}
+
+.catg1:hover{
+	box-shadow: 0px 10px 15px orange;
+}
+
+.categories h3{
+	padding: 5px 0px 5px 0px;
+	border-radius: 5px;
+	background-color: #31535f;
+	text-align: center;
+	color: white;
+}
+
+.catg1{
+	border-top: 5px solid orange;
+	border-radius: 5px;
+	padding: 0px 20px 0px 20px;
+	float: left;
+	position: relative;
+	top: 80px;
+	margin: 0px 10px 0px 10px;
+	width: 255px;
+	height: auto;
+	background-color: #F3F3F3;
+	box-shadow: 0px 0px 3px orange;
+}
+
+.imgsecond{
+	width: 100%;
+	height: 700px;
+	background-image: url(../images/landpagebottle.jpg);
+	background-repeat: no-repeat;
+}
+
+.content{
+	padding: 30px;
+	position: relative;
+	top: 150px;
+	margin-left: 200px;
+	width: 800px;
+	height: 300px;
+	text-align: justify;
+	background-color: white;
+	opacity: 0.7;
+	border: 10px solid rgba(255,165,0,.7);
+}
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #ECECEC;
+}
+
+.icon{
+	padding: 30px 0px 0px 505px;
+}
+
+.icon li:hover{
+	box-shadow: 0px 0px 5px orange;
+}
+
+.icon ul li{
+	font-size: 25px;
+	list-style:none;
+	display: inline;
+	padding-left: 10px;
+}
+
+.copyright{
+	padding: 0px 0px 0px 475px;
+}
+
+i{
+	color: orange;
+}
+
